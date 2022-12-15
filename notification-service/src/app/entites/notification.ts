@@ -3,7 +3,7 @@ import { notificationContent } from "./notification-content";
 
 export interface NotificationProps {
   recipientId: string;
-  content: notificationContent;
+  content: notificationContent; //custom value
   category: string;
   readAt?: Date | null;
   createdAt: Date;
